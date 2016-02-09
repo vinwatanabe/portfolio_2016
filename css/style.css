@@ -1,0 +1,84 @@
+body{
+	background-color: #f1f1f1;
+}
+
+#left, #right, #top, #bottom{
+	background: #fff;
+	position: fixed;
+	z-index: 999;
+}
+
+#left, #right{
+	top: 0;
+	bottom: 0;
+	width: 15px;
+}
+
+#left{
+	left: 0;
+}
+
+#right{
+	right: 0;
+}
+
+#top, #bottom{
+	left: 0;
+	right: 0;
+	height: 15px;
+}
+
+#top{
+	top: 0;
+}
+
+#bottom{
+	bottom: 0;
+}
+
+header{
+	background: url("../images/resources/background_home.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 508px;
+	text-align: center;
+}
+
+.linha{
+	position: absolute;
+	top: 0;
+	-ms-transform: translate(-273px, 0px);
+	-webkit-transform: translate(-273px, 0px);
+	transform: translate(-273px, 0px);
+}
+
+#titulo-header{
+	padding-top: 90px;
+	text-align: center;
+}
+
+#titulo-header h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 5.5em;
+	color: #000;
+}
+
+#titulo-header h2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.0625em;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin-top: 15px;
+	color: #0509bb;
+}
+
+.linha-horizontal-1{
+	width: 30px;
+	height: 2px;
+	background-color: #0509bb;
+	margin: 0 auto;
+	margin-top: 20px;
+}

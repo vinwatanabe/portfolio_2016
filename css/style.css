@@ -490,3 +490,38 @@ body{
 	max-width: 631px;
 	height: auto;
 }
+
+/* Jeans Mania */
+.modelo03-img{
+	margin-top: 9px;
+}
+
+.projeto-image-jeans{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.projeto-image-jeans > img{
+	width: 100%;
+	max-width: 942px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.projeto-posts-jeans{
+	width: 90%;
+	max-width: 942px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.projeto-posts-jeans > img{
+	width: 49%;
+	max-width: 800px;
+	height: auto;
+	float: left;
+}
+
+.projeto-posts-jeans > img:first-of-type{
+	margin-right: 2%;
+}

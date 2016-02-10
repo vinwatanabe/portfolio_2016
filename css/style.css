@@ -370,6 +370,46 @@ body{
 	transform: translateY(-50%);
 }
 
+/* Desktop na tela */
+.content-head-desktop{
+	width: 100%;
+	height: 495px;
+	background-color: #fff;
+}
+
+.desktop-image{
+	position: relative;
+	top: -31px;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.desktop-image > img{
+	width: 100%;
+	max-width: 960px;
+	height: auto;
+}
+
+.projeto{
+	margin: 50px 0 50px 0;
+}
+
+.projeto-image{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.projeto-image > img{
+	width: 100%;
+	max-width: 1280px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.projeto-image > img:last-of-type{
+	margin-bottom: 0px;
+}
+
 /* Eu ouvi Outback */
 .elevador-img{
 	margin-top: 30px;
@@ -395,19 +435,50 @@ body{
 	margin-top: 35px;
 }
 
-.content-head-desktop{
+/* Social Media Pernambucanas */
+.modelo01-img{
+	margin-top: 21px;
+}
+
+.content-head-social{
 	width: 100%;
-	height: 495px;
 	background-color: #fff;
-}
-
-.desktop-image{
-	position: relative;
-	top: -31px;
+	overflow: visible;
 	margin: 0 auto;
-	z-index: 2;
+	padding-top: 50px;
 }
 
-.projeto{
-	margin: 50px 0 50px 0;
+.projeto-posts{
+	width: 90%;
+	padding-bottom: 50px;
+	margin: 0 auto;
+}
+
+.projeto-image-col-left, .projeto-image-col-right{
+	display: inline-block;
+	width: 48%;
+	text-align: center;
+}
+
+.projeto-image-col-left > img, .projeto-image-col-right > img{
+	margin-bottom: 7.5em;
+	width: 100%;
+	height: auto;
+}
+
+.projeto-image-col-left > img:last-of-type, .projeto-image-col-right > img:last-of-type{
+	margin-bottom: 0em;
+}
+
+.projeto-image-col-left{
+	float: left;
+}
+
+.projeto-image-col-right{
+	margin-top: 18.125em;
+}
+
+/* Campanha do agasalho */
+.modelo02-img{
+	margin-top: 5px;
 }

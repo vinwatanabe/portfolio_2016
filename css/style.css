@@ -36,26 +36,33 @@ body{
 	bottom: 0;
 }
 
+#container{
+	width: 100%;
+	min-width: 100%;
+	height: 100%;
+	min-height: 100%;
+}
+
 header{
 	background: url("../images/resources/background_home.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 508px;
+	height: 407px;
 	text-align: center;
 }
 
 .linha{
 	position: absolute;
 	top: 0;
-	-ms-transform: translate(-273px, 0px);
-	-webkit-transform: translate(-273px, 0px);
-	transform: translate(-273px, 0px);
+	-ms-transform: translateX(-273px);
+	-webkit-transform: translateX(-273px);
+	transform: translateX(-273px);
 }
 
 #titulo-header{
-	padding-top: 90px;
+	padding-top: 80px;
 	text-align: center;
 }
 
@@ -75,10 +82,190 @@ header{
 	color: #0509bb;
 }
 
-.linha-horizontal-1{
+.linha-horizontal{
 	width: 30px;
 	height: 2px;
 	background-color: #0509bb;
 	margin: 0 auto;
 	margin-top: 20px;
+}
+
+.content{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.link-thumb-elevador{
+	width: 100%;
+	position: relative;
+	float: right;
+	z-index: 1;
+}
+
+.link-thumb-friboi{
+	margin-top: -80px;
+	width: 100%;
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+
+.link-thumb-pernamb-social{
+	margin-top: -70px;
+	width: 100%;
+	position: relative;
+	float: right;
+	z-index: 1;
+}
+
+.link-thumb-agasalho{
+	margin-top: -65px;
+	width: 100%;
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+
+.link-thumb-momento-outback{
+	margin-top: -20px;
+	width: 100%;
+	position: relative;
+	float: right;
+	z-index: 1;
+}
+
+.link-thumb-jeans{
+	margin-top: -60px;
+	width: 100%;
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+
+.link-thumb-brooklyn{
+	margin-top: -63px;
+	width: 100%;
+	position: relative;
+	float: right;
+	z-index: 1;
+}
+
+.thumb-right{
+	float: right;
+}
+
+.thumb-left{
+	float: left;
+}
+
+.titulo-elevador{
+	position: absolute;
+	-moz-margin-left: calc(100% - 725px);
+	-webkit-margin-left: calc(100% - 725px);
+	margin-left: calc(100% - 725px);
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.titulo-friboi{
+	position: absolute;
+	margin-left: 400px;
+	top: 50%;
+	-ms-transform: translateY(-40%);
+	-webkit-transform: translateY(-40%);
+	transform: translateY(-40%);
+	z-index: 2;
+}
+
+.titulo-pernamb-social{
+	position: absolute;
+	-moz-margin-left: calc(100% - 825px);
+	-webkit-margin-left: calc(100% - 825px);
+	margin-left: calc(100% - 825px);
+	top: 55%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.titulo-agasalho{
+	position: absolute;
+	margin-left: 400px;
+	top: 50%;
+	-ms-transform: translateY(-40%);
+	-webkit-transform: translateY(-40%);
+	transform: translateY(-40%);
+	z-index: 2;
+}
+
+.titulo-momento-outback{
+	position: absolute;
+	-moz-margin-left: calc(100% - 868px);
+	-webkit-margin-left: calc(100% - 868px);
+	margin-left: calc(100% - 868px);
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.titulo-jeans{
+	position: absolute;
+	margin-left: 400px;
+	top: 55%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.titulo-brooklyn{
+	position: absolute;
+	-moz-margin-left: calc(100% - 760px);
+	-webkit-margin-left: calc(100% - 760px);
+	margin-left: calc(100% - 760px);
+	top: 53%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.titulo-link > h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 4.375em;
+	color: #000;
+	text-align: left;
+}
+
+.titulo-link > p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin: 20px 0px 20px 0px;
+	color: #0509bb;
+	text-align: left;
+}
+
+.linha-titulo{
+	width: 65px;
+	height: 2px;
+	background-color: #0509bb;
+	float: left;
+}
+
+section:last-child{
+	margin-bottom: 50px;
+}
+
+footer{
+	text-align: center;
+	margin-bottom: 45px;
 }

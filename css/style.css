@@ -56,14 +56,17 @@ body{
 .linha{
 	position: absolute;
 	top: 0;
-	-ms-transform: translateX(-273px);
-	-webkit-transform: translateX(-273px);
-	transform: translateX(-273px);
+	left: 50%;
+	-ms-transform: translateX(-112%);
+	-webkit-transform: translateX(-112%);
+	transform: translateX(-112%);
+	z-index: 1;
 }
 
 #titulo-header{
 	padding-top: 80px;
 	text-align: center;
+	z-index: 2;
 }
 
 #titulo-header h1{

@@ -43,7 +43,7 @@ body{
 	min-height: 100%;
 }
 
-header{
+.header-home{
 	background: url("../images/resources/background_home.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -261,6 +261,33 @@ header{
 	float: left;
 }
 
+.col-1, .col-2{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	color: #0509bb;
+	text-align: left;
+	letter-spacing: 0px;
+	line-height: 22px;
+	width: 30%;
+	display: inline-block;
+}
+
+.col-1{
+	float: left;
+}
+
+.col-1 > p, .col-2 > p{
+	margin: 20px 0px 20px 0px;
+}
+
+.col-1 span, .col-2 span{
+	color: #000;
+}
+
+.col-1 > p:first-of-type, .col-2 > p:first-of-type{
+	margin-top: 5px;
+}
+
 section:last-child{
 	margin-bottom: 50px;
 }
@@ -268,4 +295,34 @@ section:last-child{
 footer{
 	text-align: center;
 	margin-bottom: 45px;
+}
+
+/* Eu ouvi Outback */
+.header-pages{
+	background: #f1f1f1;
+	background: linear-gradient(180deg, #2c93a5, #f1f1f1);
+	height: 508px;
+	margin-top: 15px;
+	overflow: hidden;
+}
+
+.header-img{
+	width: 45%;
+	height: 508px;
+	float: left;
+	text-align: center;
+}
+
+.elevador-img{
+	margin-top: 15px;
+}
+
+.titulo-pages{
+	width: 45%;
+	float: right;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
 }

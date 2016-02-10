@@ -482,3 +482,11 @@ body{
 .modelo02-img{
 	margin-top: 5px;
 }
+
+/* Meu momento outback */
+.cebola-img{
+	margin-top: 100px;
+	width: 100%;
+	max-width: 631px;
+	height: auto;
+}

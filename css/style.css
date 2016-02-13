@@ -162,6 +162,9 @@ body{
 
 .thumb-right{
 	float: right;
+	-ms-transform: translate(0px, 0px);
+	-webkit-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
 }
 
 .thumb-left{
@@ -173,7 +176,7 @@ body{
 	-moz-margin-left: calc(100% - 725px);
 	-webkit-margin-left: calc(100% - 725px);
 	margin-left: calc(100% - 725px);
-	top: 50%;
+	top: 35%;
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -183,7 +186,7 @@ body{
 .titulo-friboi{
 	position: absolute;
 	margin-left: 400px;
-	top: 50%;
+	top: 45%;
 	-ms-transform: translateY(-40%);
 	-webkit-transform: translateY(-40%);
 	transform: translateY(-40%);
@@ -217,7 +220,7 @@ body{
 	-moz-margin-left: calc(100% - 868px);
 	-webkit-margin-left: calc(100% - 868px);
 	margin-left: calc(100% - 868px);
-	top: 50%;
+	top: 45%;
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -239,7 +242,7 @@ body{
 	-moz-margin-left: calc(100% - 760px);
 	-webkit-margin-left: calc(100% - 760px);
 	margin-left: calc(100% - 760px);
-	top: 53%;
+	top: 55%;
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);

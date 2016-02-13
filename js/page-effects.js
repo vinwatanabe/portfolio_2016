@@ -4,10 +4,10 @@ $(document).ready(function(){
 	$('.link-thumb').mouseleave(projectLinkLeave);
 
 	//SCROLL TOP
-	$('a[href^="#"]').on('click',function (e) {
+	$('.btn-subir').on('click',function (e) {
 	    e.preventDefault();
 
-	    var target = this.hash;
+	    var target = '#container';
 	    var $target = $(target);
 
 	    $('html, body').stop().animate({
@@ -17,6 +17,7 @@ $(document).ready(function(){
 	    });
 	});
 
+	//FUNCTIONS
 	function projectLinkEnter(){
 		$(this).find('.linha-titulo').hide();
 		$(this).find('.linha-titulo-hidden').slideDown(300);

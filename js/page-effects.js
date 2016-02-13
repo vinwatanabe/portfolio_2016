@@ -5,11 +5,11 @@ $(document).ready(function(){
 
 	function projectLinkEnter(){
 		$(this).find('.linha-titulo').hide();
-		$(this).find('.linha-titulo-hidden').slideDown(500);
+		$(this).find('.linha-titulo-hidden').slideDown(300);
 	}
 
 	function projectLinkLeave(){
-		$(this).find('.linha-titulo-hidden').slideUp(500);
+		$(this).find('.linha-titulo-hidden').slideUp(300);
 		$(this).find('.linha-titulo').show()
 	}
 });

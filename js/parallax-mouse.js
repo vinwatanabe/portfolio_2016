@@ -39,4 +39,13 @@ $(document).ready(function(){
 		$('.titulo-thumb-left').css({'-webkit-transform':'translate(' + x + 'px, ' + y +'px)'});
 		$('.titulo-thumb-left').css({'-ms-transform':'translate(' + x + 'px, ' + y +'px)'});
 	});
+
+	//FOOTER PAGES
+	$(window).mousemove(function(e){
+		var x = (e.pageX * 1 / 50);
+
+		$('.footer-pages img').css({'transform':'translate(' + x + 'px)'});
+		$('.footer-pages img').css({'-webkit-transform':'translate(' + x + 'px)'});
+		$('.footer-pages img').css({'-ms-transform':'translate(' + x + 'px'});
+	});
 });

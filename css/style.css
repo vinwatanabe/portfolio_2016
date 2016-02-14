@@ -403,6 +403,7 @@ body{
 	-moz-background: linear-gradient(180deg, #2c93a5, #f1f1f1);
 	background: linear-gradient(180deg, #2c93a5, #f1f1f1);
 	margin-bottom: 15px;
+	text-align: center;
 }
 
 .footer-pages a{
@@ -417,15 +418,17 @@ body{
 	-ms-transform: translateX(-50%);
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
+	-webkit-transition: color 0.6s;
+	transition: color 0.6s;
 	z-index: 2;
 }
 
+.footer-pages a:hover{
+	color: #0509bb;
+}
+
 .footer-pages > img{
-	position: absolute;
-	left: 50%;
-	-ms-transform: translateX(-50%);
-	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
+	position: relative;
 	z-index: 1;
 }
 

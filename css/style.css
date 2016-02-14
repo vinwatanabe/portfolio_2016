@@ -429,6 +429,7 @@ body{
 
 .footer-pages > img{
 	position: relative;
+	left: 1.5%;
 	z-index: 1;
 }
 

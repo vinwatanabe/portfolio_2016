@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 	//FOOTER PAGES
 	$(window).mousemove(function(e){
-		var x = (e.pageX * 1 / 50);
+		var x = (e.pageX * -1 / 35);
 
 		$('.footer-pages img').css({'transform':'translate(' + x + 'px)'});
 		$('.footer-pages img').css({'-webkit-transform':'translate(' + x + 'px)'});

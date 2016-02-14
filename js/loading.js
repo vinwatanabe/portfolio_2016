@@ -13,8 +13,7 @@ $(document).ready(function(){
 		e.preventDefault();
 
 		$('#container').fadeOut(500, function(){
-			$('#container').hide();
-			$('.load-container').slideDown(function(){
+			$('#container').hide(function(){
 				window.open(url, "_self");
 			});
 		});
